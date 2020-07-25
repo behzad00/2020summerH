@@ -18,7 +18,7 @@ class Navbar extends React.Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#">Project name</a>
+                        <a className="navbar-brand" href="#" style={{color:"black"}}> Main</a>
                     </div>
                 </div>
             </nav>

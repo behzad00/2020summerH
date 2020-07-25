@@ -5,7 +5,7 @@ import ReactDOM from "react-dom"
 // We need to include all of the components we"re utilizing
 
 import Navbar from "./components/Navbar"
-import Jumbotron from "./components/Jumbotron"
+import AvailableProjects from "./components/AvailableProjects"
 import Panel from "./components/Panel"
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
 // Again, treat them like they are any other HTML elements.
   <div className="container">
     <Navbar />
-    <Jumbotron />
+    <AvailableProjects />
     <Panel />
   </div>
   , document.getElementById("app")
