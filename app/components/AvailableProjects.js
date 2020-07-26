@@ -32,18 +32,18 @@ var TableComponent = React.createClass({
   
   // Example Data
   var tableData = {
-    columns: ['Available Projects', 'Skills Required', 'Location'],
+    columns: ['Available Project', 'Skills Required', 'Location'],
     rows: [{
-      'Available Projects': 'Veterinary Assitance',
-      'Skills Required': 50,
-      'Location': '1 Hour',
+      'Available Project': 'Oracle Cloud Migration',
+      'Skills Required': 'Oracle Cloud',
+      'Location': 'New York, NY, USA',
     }, {
-      'Available Projects': 'Veterinary Assitance',
-      'Skills Required': 50,
-      'Location': '1 Hour',
+      'Available Project': 'Veterinary Assitance',
+      'Skills Required': 'Oracle Cloud',
+      'Location': 'London, UK',
     }, {
-      'Available Projects': 'Veterinary Assitance',
-      'Skills Required': 50,
+      'Available Project': 'Veterinary Assitance',
+      'Skills Required': 'Oracle Cloud',
       'Location': '1 Hour',
     }]
   };
