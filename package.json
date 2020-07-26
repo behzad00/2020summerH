@@ -5,12 +5,13 @@
   "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js", //node server/server.js// //replace// //webpack-dev-server --progress --inline --hot//
+    "start": "webpack-dev-server --progress --inline --hot",
     "build": "webpack -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1"
