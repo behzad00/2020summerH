@@ -38,13 +38,13 @@ var TableComponent = React.createClass({
       'Skills Required': 'Oracle Cloud',
       'Location': 'New York, NY, USA',
     }, {
-      'Available Project': 'Veterinary Assitance',
-      'Skills Required': 'Oracle Cloud',
+      'Available Project': 'Business Model Transformation',
+      'Skills Required': 'BI Strategy',
       'Location': 'London, UK',
     }, {
-      'Available Project': 'Veterinary Assitance',
-      'Skills Required': 'Oracle Cloud',
-      'Location': '1 Hour',
+      'Available Project': 'Real Estate',
+      'Skills Required': 'Accounting',
+      'Location': 'Los Angeles, California, USA',
     }]
   };
 
