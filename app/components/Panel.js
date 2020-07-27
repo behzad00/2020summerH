@@ -13,6 +13,7 @@ class Panel extends React.Component {
               <th>Full Name</th>
               <th>Location</th>
               <th>Skills</th>
+              <th>Level</th>
           </tr>
         </thead>
 
@@ -21,16 +22,19 @@ class Panel extends React.Component {
             <td>Smith, John</td>
             <td>New York Metro</td>
             <td>C++</td>
+            <th>11</th>
           </tr>
           <tr>
             <td>Smith, Ethan</td>
             <td>Seattle, WA</td>
             <td>SAS</td>
+            <th>7</th>
           </tr>
           <tr>
             <td>Smith, Emma</td>
             <td>Boston, MA</td>
             <td>Oracle Cloud</td>
+            <th>9</th>
           </tr>
         </tbody>
       </table>
